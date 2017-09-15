@@ -12,7 +12,7 @@
   border-radius: 25px;
   border: 2px solid black;
   background-image: url("../img/circles.png");
-  background-position: -7.75% 0%;
+  background-position: 10.75% 0%;
   text-align: left;
 }
 
@@ -28,13 +28,14 @@
 .headerbox {
   border-radius: 25px;
   border: 2px solid black;
-  margin-right: 600px;
+  margin-right: 610px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .javapic {
   float: right;
-  width: 8%;
+  width: 11%;
 }
 
 .csspic {
