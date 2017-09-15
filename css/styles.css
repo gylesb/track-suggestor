@@ -1,3 +1,48 @@
 #java, #css, #csharp {
   display: none;
 }
+
+#formOne {
+  border-radius: 25px;
+  border: 2px solid orange;
+  padding: 20px;
+}
+
+.jumbotron {
+  border-radius: 25px;
+  border: 2px solid black;
+  background-image: url("../img/circles.png");
+  background-position: -7.75% 0%;
+  text-align: left;
+}
+
+.well {
+  border-radius: 25px;
+  border: 2px solid black;
+  /*background-color: #339CFF;*/
+  background-image: url("../img/circles.png");
+  background-position: -7.75% 40%;
+  text-align: center;
+}
+
+.headerbox {
+  border-radius: 25px;
+  border: 2px solid black;
+  margin-right: 600px;
+  text-align: center;
+}
+
+.javapic {
+  float: right;
+  width: 8%;
+}
+
+.csspic {
+  float: right;
+  width: 20%;
+}
+
+.csharppic {
+  float: right;
+  width: 20%;
+}

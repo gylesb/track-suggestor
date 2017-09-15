@@ -10,14 +10,25 @@
   </head>
   <style media="screen">
     body {
-      background-image: url(background.jpg);
+      background-image: url("img/circles.png");
     }
   </style>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Epicodus Track Suggestor</h1>
-        <h3>Which track is the one for you?</h3>
+        <div class="javapic">
+          <img src="img/java.png" height="120px" alt="java">
+        </div>
+        <div class="csharppic">
+          <img src="img/csharp.png" height="120px" alt="csharp">
+        </div>
+        <div class="csspic">
+          <img src="img/css.png" height="120px" alt="css">
+        </div>
+        <div class="headerbox">
+          <h2>Epicodus Track Suggestor</h2>
+          <h3>Which track is the one for you?</h3>
+        </div>
       </div>
       <form id="formOne">
         <div class="form-group">
@@ -48,7 +59,7 @@
         </div>
         <br>
         <div class="form-group">
-          <label for="track">Which track would you like more information on?></label>
+          <label for="track">Which track would you like more information on?</label>
           <div class="radio" id="track">
             <label><input type="radio" name="track" value="java">The Java/Android track</label>
             <br>
@@ -65,21 +76,21 @@
       <div class="results">
         <div id="java">
           <div class="well">
-            <h1><span id="name"></span>! Thank you for taking the time to take part in this brief survey.</h1>
+            <h1>Thank you for taking the time to take part in this brief survey.</h1>
             <h2>Based off of your results, you'd be best suited for the <b>Java/Android</b> track!</h2>
             <h4><strong>Java</strong> is a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because <strong>Java</strong> has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, <strong>Java</strong> could be a good language to learn.</h4>
           </div>
         </div>
         <div id="css">
           <div class="well">
-            <h1><span id="name"></span>! Thank you for taking the time to take part in this brief survey.</h1>
+            <h1>Thank you for taking the time to take part in this brief survey.</h1>
             <h2>Based off of your results, you'd be best suited for the <b>CSS/Design</b> track!</h2>
             <h4>If you're like some people out there, then you have some trouble with keeping pages looking simplistic. Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take <strong>CSS and Design</strong> classes at Epicodus.</h4>
           </div>
         </div>
         <div id="csharp">
           <div class="well">
-            <h1><span id="name"></span>! Thank you for taking the time to take part in this brief survey.</h1>
+            <h1>Thank you for taking the time to take part in this brief survey.</h1>
             <h2>Based off of your results, you'd be best suited for the <b>C#/.NET</b> track!</h2>
             <h4><strong>C#</strong> is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. <strong>C#</strong> has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, <strong>C#</strong> is a great choice.</h4>
           </div>
