@@ -7,21 +7,21 @@ $(document).ready(function() {
     var track = $("input:radio[name=track]:checked").val();
 
     if (experience === "yes") {
-      if (company === "big" && track === "java") {
+      if (company === "big", "small", "enterprise" && track === "java") {
         $("#java").show();
-      } else if (company === "small" && track === "css") {
+      } else if (company === "big", "small", "enterprise" && track === "css") {
         $("#css").show();
-      } else if (company === "enterprise" && track === "csharp") {
+      } else if (company === "big", "small", "enterprise" && track === "csharp") {
         $("#csharp").show();
       }
     }
 
     if (experience === "no") {
-      if (track === "java") {
+      if (company === "big", "small", "enterprise" && track === "java") {
         $("#java").show();
-      } else if (track === "css") {
+      } else if (company === "big", "small", "enterprise" && track === "css") {
         $("#css").show();
-      } else if (track === "csharp") {
+      } else if (company === "big", "small", "enterprise" && track === "csharp") {
         $("#csharp").show();
       }
     }
