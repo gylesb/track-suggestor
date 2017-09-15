@@ -6,6 +6,8 @@
   border-radius: 25px;
   border: 2px solid orange;
   padding: 20px;
+  width: 80%;
+  margin-left: 110px;
 }
 
 .jumbotron {
@@ -23,6 +25,7 @@
   background-image: url("../img/circles.png");
   background-position: -7.75% 40%;
   text-align: center;
+  margin-top: 13px;
 }
 
 .headerbox {
