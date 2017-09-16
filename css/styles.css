@@ -13,8 +13,9 @@
 .jumbotron {
   border-radius: 25px;
   border: 2px solid black;
-  background-image: url("../img/circles.png");
-  background-position: 10.75% 0%;
+  /*background-image: url("../img/circles.png");*/
+  /*background-position: 10.75% 0%;*/
+  background: rgba(54, 54, 54, 0.05);
   text-align: left;
 }
 
@@ -34,6 +35,15 @@
   margin-right: 610px;
   text-align: center;
   padding-bottom: 10px;
+}
+
+.headerbox:hover {
+  border-radius: 25px;
+  border: 2px solid black;
+  margin-right: 610px;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #DDEDFF;
 }
 
 .javapic {
